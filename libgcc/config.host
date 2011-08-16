@@ -484,6 +484,8 @@ powerpc-*-eabi*)
 	;;
 powerpc-*-rtems*)
 	;;
+powerpc64-ps3-elf)
+	;;
 powerpc-*-linux* | powerpc64-*-linux*)
 	tmake_file="${tmake_file} rs6000/t-ppccomm rs6000/t-ldbl128 t-softfp"
 	;;
